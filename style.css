@@ -123,12 +123,36 @@ body{
     text-decoration: none;
 }
 
+.category-section {
+    margin: 40px 0;
+    padding: 30px 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 2px 10px rgba(53, 97, 192, 0.1);
+}
+
+.category-section:hover {
+    box-shadow: 0 5px 15px rgba(53, 97, 192, 0.15);
+    transition: all 0.3s ease;
+}
+
+.category-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #3561C0;
+    margin: 0 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
     max-width: 1400px;
-    margin: 10px auto ;
+    margin: 0 auto;
 }
 
 .card {
@@ -217,7 +241,7 @@ body{
 }
 .popUp-style h3{
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     margin: 10px 0;
 }  
@@ -233,4 +257,49 @@ body{
     .popUp-style h3{
         font-size: 24px;
     }
+}
+footer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFCFCF;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    margin: -20px -20px -20px -20px;
+}
+.ft-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 700;
+}
+.ft-logo h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ft-logo img{
+    filter: grayscale(100%);
+    width: 80px;
+    height: 80px;
+}
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+.footer-info p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
 }
