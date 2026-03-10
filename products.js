@@ -1,9 +1,9 @@
 const products = {
     drinks: [
-        { id: "Айс-ти аки-гава", name: "Айс-ти аки-гава", price: 22, image: "contant/Напитки/Айс-ти аки-гава.png", size: "mini" },
-        { id: "Айс-латте", name: "Айс-латте", price: 25, image: "contant/Напитки/Айс-латте.png", size: "mini" },
         { id: "Айс-ти тропик", name: "Айс-ти тропик", price: 22, image: "contant/Напитки/Айс-ти тропик.png", size: "mini" },
         { id: "Айс-ти ягодный", name: "Айс-ти ягодный", price: 22, image: "contant/Напитки/Айс-ти ягодный.png", size: "mini" },
+        { id: "Айс-ти аки-гава", name: "Айс-ти аки-гава", price: 22, image: "contant/Напитки/Айс-ти аки-гава.png", size: "mini" },
+        { id: "Айс-латте", name: "Айс-латте", price: 25, image: "contant/Напитки/Айс-латте.png", size: "mini" },
         { id: "Лимонад манго-маракуйя", name: "Лимонад манго-маракуйя", price: 28, image: "contant/Напитки/Лимонад манго-маракуйя.png" },
         { id: "Лимонад киви-айс", name: "Лимонад киви-айс", price: 28, image: "contant/Напитки/Лимонад киви-айс.png" },
         { id: "Лимонад классик", name: "Лимонад классик", price: 25, image: "contant/Напитки/Лимонад классик.png" },
